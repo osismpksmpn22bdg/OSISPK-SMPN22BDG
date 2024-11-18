@@ -1,0 +1,116 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(220, 246, 255);
+  color: #fff;
+  min-height: 0px;
+  margin: 0px;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+  background-color: rgba(25, 33, 64, 0.9);
+  border-bottom: 1px solid #3e341f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  font-style: italic;
+}
+
+.navbar-logo span {
+  color: var(--primary);
+}
+
+.navbar-nav a {
+  color: #fff;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 0 1rem;
+}
+
+.navbar-nav a:hover {
+  color: #fff;
+}
+
+.navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #e8b641;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.navbar-nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.navbar-extra a {
+  color: #fff;
+  margin: 0 0.5rem;
+}
+
+.navbar-extra a:hover {
+  color: var(--primary);
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+.perkenalan {
+  /* border: 1px solid gray; */
+  padding: 8px;
+  margin: 20px;
+  margin-top: 120px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4caf50;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: #d6ba00;
+}
+
+li {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  color: #24245d;
+}
+
+a {
+  text-decoration: none;
+  color: #008cba;
+}
+
+img {
+  width: 1000px;
+  margin-left: 125px;
+}
